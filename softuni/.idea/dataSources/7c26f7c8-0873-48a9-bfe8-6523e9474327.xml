@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - gringotts@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="gringotts">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="car_rental"/>
+    <schema id="3" name="diablo"/>
+    <schema id="4" name="geography"/>
+    <schema id="5" name="hotel"/>
+    <schema id="6" name="information_schema"/>
+    <schema id="7" name="minions"/>
+    <schema id="8" name="minions_db"/>
+    <schema id="9" name="movies"/>
+    <schema id="10" name="mysql"/>
+    <schema id="11" name="online_store"/>
+    <schema id="12" name="performance_schema"/>
+    <schema id="13" name="sakila"/>
+    <schema id="14" name="school"/>
+    <schema id="15" name="softuni"/>
+    <schema id="16" name="soft_uni"/>
+    <schema id="17" name="sys"/>
+    <schema id="18" name="testing"/>
+    <schema id="19" name="university"/>
+    <schema id="20" name="world"/>
+    <table id="21" parent="1" name="wizzard_deposits"/>
+    <column id="22" parent="21" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="23" parent="21" name="first_name">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="24" parent="21" name="last_name">
+      <data-type>varchar(60)|0</data-type>
+    </column>
+    <column id="25" parent="21" name="notes">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="26" parent="21" name="age">
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="27" parent="21" name="magic_wand_creator">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="28" parent="21" name="magic_wand_size">
+      <data-type>smallint(6)|0</data-type>
+    </column>
+    <column id="29" parent="21" name="deposit_group">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="30" parent="21" name="deposit_start_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="31" parent="21" name="deposit_amount">
+      <data-type>decimal(8,2)|0</data-type>
+    </column>
+    <column id="32" parent="21" name="deposit_interest">
+      <data-type>decimal(5,2)|0</data-type>
+    </column>
+    <column id="33" parent="21" name="deposit_charge">
+      <data-type>decimal(8,2)|0</data-type>
+    </column>
+    <column id="34" parent="21" name="deposit_expiration_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="35" parent="21" name="is_deposit_expired">
+      <data-type>bit(1)|0</data-type>
+    </column>
+    <key id="36" parent="21" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
